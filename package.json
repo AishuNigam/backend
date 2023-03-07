@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "pm2 start src/app.js",
+    "dev": "nodemon ./app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.1"
+  }
+}
